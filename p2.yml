@@ -1,5 +1,5 @@
 - name: new web
-  hosts: localhost
+  hosts: webserver
   become: true
   tasks:
           - name: install  httpd
