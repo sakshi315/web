@@ -1,5 +1,6 @@
 - name: new web
   hosts: localhost
+  become: true
   tasks:
           - name: install  httpd
             yum:
